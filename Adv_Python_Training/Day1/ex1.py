@@ -1,4 +1,7 @@
 print('===============================')
-a='I like "songs" but my wife\nlike \'dancing\' '
-print(a)
+x=[1,2,3,4,5]
+print(x)
+x.pop(2)
+print(x)
+
 print('===============================')

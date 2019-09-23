@@ -100,6 +100,37 @@ Concatination of touples
 >>> 
 
 Multiline String
->>> a='I like "songs" but my wife\nlike \'dancing\' '
->>> print(a)
 
+## example 1
+a='I like "songs" but my wife\nlike \'dancing\' '
+print(a)
+
+## example 2
+a=""" hi my name is sahasrangshu guha
+I like riding byke.
+My wife's hobby is singing
+"""
+print(a)
+
+None
+If a function is not returning anything then its returning None, 
+If a variable is decleared but not initialized then its containing None
+
+Creating an empty touple
+x=(None,)
+print(x)
+print(type(x))
+
+Creating an empty list
+x = []
+
+x=[1,2,3,(1,2,3), 'angshu', 'piklu']
+print(x) 
+print(type(x)) # list
+print(len(x)) # 6
+x[3] = 'guha'
+print(x)
+
+append(element):-> this is a method of list which appends 'element' at the end of list
+insert(position, element):-> this method insert an element in given position
+pop(index):-> pop out one element from given index or from end of a list,
