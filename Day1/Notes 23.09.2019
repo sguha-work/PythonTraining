@@ -12,3 +12,32 @@ same.
 
 id():--> this method returns the memory address
 
+Assigning multiple values to multiple variables
+
+a,b,c=5,'Angshu', 15.9
+Now if we print print(type(a)) and print(type(b)) we will see different address as the values are different so there are getting stored in 
+different memory location
+
+Touples
+a=(1,2,3,'angshu',(10,20,30.5))
+
+the above example holds a touple inside a touple.
+We cann't change the touple values after initialization as touples are immutable
+
+suppose a=(1,2,3) then if we print print(id(a)) say the value is 1000
+now if we run a=(4,5,6). then print(id(a)) will return some other value than 1000 cause as we try to rewrite the touple a new touple is created instead of 
+editing the existing one.
+
+Indexing
+Positive indexing LtoR
+Negetive indexing RtoL
+
+suppose a = 'angshu'
+print(a[3])// s
+above line is an example of positive indexing
+
+print(a[-2])// h
+
+point to note -ve indexing starts with -1, whew as +ve indexing starts with 0. obviously because -0 and +0 doesn't make sense
+
+
