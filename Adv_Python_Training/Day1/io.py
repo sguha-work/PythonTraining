@@ -1,0 +1,6 @@
+print('==========================================')
+print("""Enter a value""")
+a=input()
+print('The given value is ',a)
+print('The type of given value is ',type(a))
+print('==========================================')
