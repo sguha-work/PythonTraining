@@ -1,0 +1,14 @@
+Assigning single value to multiple variables
+x=y=z=50
+
+print(type(x)) -> Class 'int'
+
+type():--> this method returns the data type
+
+For integer string and float if the values are same then the variables are pointing to same memory location
+
+As x,y,z's value are same so print(id(x)), print(id(y)), print(id(z)) are same. IE. memory address of all three variables are 
+same.
+
+id():--> this method returns the memory address
+
