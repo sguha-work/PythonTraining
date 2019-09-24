@@ -1,3 +1,4 @@
+# this program will show upto which charecter you were right
 print('==============================================================')
 name = 'Angshu'
 guess = input('So I\'m thinking of a person\'s name can u guess it?')
