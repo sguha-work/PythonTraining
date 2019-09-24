@@ -43,3 +43,8 @@ Types of import
 5> from math import pi as p           # import pi only from math
 6> from math import pi, sin           # import pi and sin from math
 7> from math import pi as p, sin as s # import pi and sin from math
+
+When using from to import we don't need to specify the directory 
+name to access one mathod. Eg. 'import math' and then you have to
+'print(math.pi)'. But if you write 'from math import *' then 'print(pi)'
+ will be enough
