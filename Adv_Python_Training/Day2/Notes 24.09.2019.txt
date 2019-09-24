@@ -48,3 +48,8 @@ When using from to import we don't need to specify the directory
 name to access one mathod. Eg. 'import math' and then you have to
 'print(math.pi)'. But if you write 'from math import *' then 'print(pi)'
  will be enough
+ 
+ ## installing third party packages
+ python -m pip install packagename
+ 
+ 
