@@ -18,3 +18,11 @@ using dict() method we can also create a dictionary like foolowing
 
 >>> a = dict()
 >>> print(a) # prints {}
+
+marging two dictionary and preparing a new one
+>>> c={**a, **b} # considering a, b are pre defined dictionary
+
+using get method we can solve the error of key not found, suppose a dictionary 
+is declared like this a = {'name': 'angshu', 'age': 30}.
+Now a['address'] will cause an error. But a.get('address', 'Not specified') 
+will return 'Not specified'
