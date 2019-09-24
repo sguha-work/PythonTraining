@@ -2,3 +2,10 @@
 print('This is sentence 1 ',end='')
 print('This is sentence 2')
 # the end will concatinate the output
+
+## concatination strings from a list
+print(a[0],a[1], sep='+')
+# + will act as separator
+
+the LHS and RHS of '+' symbol always hold same data type '30' + 30 is 
+not allowed, 30 + '30' is not allowed, only 30 + 30 and '30'+'30' is allowed
