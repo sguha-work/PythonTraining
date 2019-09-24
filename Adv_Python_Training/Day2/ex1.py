@@ -1,7 +1,5 @@
 print('==============================================================')
-x=[1,2,3,4,5]
-print(x)
-x.pop(2)
-print(x)
-
+print('This is sentence 1 ',end='')
+print('This is sentence 2')
+print('This is sentence 3')
 print('==============================================================')

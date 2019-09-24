@@ -1,0 +1,4 @@
+##concatinating out put of two different prnt etatement
+print('This is sentence 1 ',end='')
+print('This is sentence 2')
+# the end will concatinate the output
