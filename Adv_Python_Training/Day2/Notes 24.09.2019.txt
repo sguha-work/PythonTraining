@@ -9,3 +9,12 @@ print(a[0],a[1], sep='+')
 
 the LHS and RHS of '+' symbol always hold same data type '30' + 30 is 
 not allowed, 30 + '30' is not allowed, only 30 + 30 and '30'+'30' is allowed
+
+Dictionary
+List of key value pair
+Cannot hold duplicate key, if duplicate key value pair is given then that will
+replace old key value pair with same key name
+using dict() method we can also create a dictionary like foolowing
+
+>>> a = dict()
+>>> print(a) # prints {}
