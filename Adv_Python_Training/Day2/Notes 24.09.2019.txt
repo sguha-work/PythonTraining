@@ -26,3 +26,20 @@ using get method we can solve the error of key not found, suppose a dictionary
 is declared like this a = {'name': 'angshu', 'age': 30}.
 Now a['address'] will cause an error. But a.get('address', 'Not specified') 
 will return 'Not specified'
+
+using method pop we can delete an key from a dictionary.
+a.pop('name') will delete the key value pair with key 'name'
+
+result = a.pop('address', 'Not Specified') will try to delete 'address' from
+dictionary but as it is not found it will return the 'Not specified' messge
+instead
+
+Types of import
+
+1> import math # import everything inside math
+2> import math as m                   # import everything
+3> from math import *                 # import everything
+4> from math import pi                # import pi only from math
+5> from math import pi as p           # import pi only from math
+6> from math import pi, sin           # import pi and sin from math
+7> from math import pi as p, sin as s # import pi and sin from math
