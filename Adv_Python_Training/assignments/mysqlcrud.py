@@ -45,7 +45,7 @@ class MySQLCRUD:
 
     def close(self):
         try:
-            self.MySqlDB.close()
+            self.db.close()
         except:
             print(self.dictionary_errorMesseges['ERROR_CLOSING_CONNECTION'])
 
@@ -59,8 +59,10 @@ class MySQLCRUD:
         else:
             try:
                 escappedString = ''
-                for value in values:
+                index = 0
+                while index < len(values):
                     escappedString += '%s,'
+                    index += 1                   
 
                 escappedString = escappedString[0, (len(escappedString)-1), 1]
                 query = "INSERT INTO "+tableName + \
